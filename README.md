@@ -1,1 +1,1 @@
-# JordanCurrencyDetection
+# Jordan Currency Detection
