@@ -14,6 +14,9 @@ Automating the detection and classification of Jordanian coins to enhance effici
 ## Introduction
 This project addresses the inefficiencies in manual currency handling within businesses, banks, and financial institutions, focusing on the Jordanian currency. By leveraging advanced image recognition technologies, we aim to automate the process of coin detection and classification, thereby reducing time consumption, minimizing human error, and enhancing security.
 
+![image](https://github.com/nooralsmadi/JordanCurrencyDetection/assets/71272030/31461bfb-3ebf-4278-8528-d5d8dbb1a8a1)
+
+
 ## Challenges
 The manual handling of currency introduces several challenges, including:
 - **Time-Consuming Processes:** Extensive manual effort required in counting and detecting currencies.
@@ -47,9 +50,15 @@ Our dataset comprises images representing 9 different classes of Jordanian curre
 
 The images were sourced from a variety of settings to capture the diverse conditions under which coins are typically used. To further enhance the dataset, we manually captured additional images using cameras, simulating different environmental conditions to ensure the dataset's comprehensiveness and diversity.
 
+![image](https://github.com/nooralsmadi/JordanCurrencyDetection/assets/71272030/a967116a-7f56-4fe9-82fb-8828989452bb)
+
+
 ### Data Augmentation
 
 To address potential class imbalances and enrich the dataset, we employed Roboflow's augmentation capabilities. This approach allowed us to selectively augment images from underrepresented classes, ensuring a balanced dataset that facilitates equitable model training and enhances performance across all currency denominations.
+
+![image](https://github.com/nooralsmadi/JordanCurrencyDetection/assets/71272030/69e9d47a-bb3c-4fa3-83a0-ce5b12af085a)
+
 
 ### Data Splitting
 
@@ -58,6 +67,8 @@ A systematic data splitting strategy was implemented to ensure an optimal balanc
 - **Training Set:** Used to train the model, adjusting the weights and biases to minimize the error between the predicted and actual labels.
 - **Validation Set:** Used to tune the model's hyperparameters and prevent overfitting by providing a separate dataset that is not used for training.
 - **Testing Set:** Provides a final evaluation of the model's performance, reflecting its ability to generalize to new data.
+![image](https://github.com/nooralsmadi/JordanCurrencyDetection/assets/71272030/a38a43e1-ccc9-4bb8-9d08-a2297854fd56)
+
 
 ### Modeling
 
