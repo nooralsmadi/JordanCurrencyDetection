@@ -106,6 +106,7 @@ The MS COCO  (Microsoft Common Objects in Context) model by Microsoft is a pre-t
 
 ![image](https://github.com/nooralsmadi/JordanCurrencyDetection/assets/71272030/7ea59ab0-0cda-4e13-b131-e2d10fcf6a82)
 
+![image](https://github.com/nooralsmadi/JordanCurrencyDetection/assets/71272030/3214aa36-52cc-40e3-bf07-415814bffb95)
 
 
 
