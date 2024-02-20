@@ -58,6 +58,8 @@ The images were sourced from a variety of settings to capture the diverse condit
 To address potential class imbalances and enrich the dataset, we employed Roboflow's augmentation capabilities. This approach allowed us to selectively augment images from underrepresented classes, ensuring a balanced dataset that facilitates equitable model training and enhances performance across all currency denominations.
 
 ![image](https://github.com/nooralsmadi/JordanCurrencyDetection/assets/71272030/69e9d47a-bb3c-4fa3-83a0-ce5b12af085a)
+![image](https://github.com/nooralsmadi/JordanCurrencyDetection/assets/71272030/0ed27886-b4a7-4906-aa8d-8f28ce530738)
+
 
 
 ### Data Splitting
@@ -72,7 +74,36 @@ A systematic data splitting strategy was implemented to ensure an optimal balanc
 
 ### Modeling
 
+**Roboflow Model:**
+The MS COCO  (Microsoft Common Objects in Context) model by Microsoft is a pre-trained deep learning model utilized for object detection, segmentation, and captioning tasks. Leveraging the MS COCO dataset with annotated images. Renowned for its versatility, it finds applications across various domains, serving as a benchmark in computer vision.
+
+**1- Train from public check point** :
+![image](https://github.com/nooralsmadi/JordanCurrencyDetection/assets/71272030/dc5b58ad-61c6-44a9-a552-c17e35867750)
+
+**2- Train from the previous checkpointt** :
+![image](https://github.com/nooralsmadi/JordanCurrencyDetection/assets/71272030/0b594c04-8a71-4d11-ae92-42c72393fdc7)
+
 
 
 ### Evaluation and Testing
+
+![image](https://github.com/nooralsmadi/JordanCurrencyDetection/assets/71272030/2b06452a-fdbb-46dc-82ad-602ec8237448)
+
+**Training Cureves**:
+
+![image](https://github.com/nooralsmadi/JordanCurrencyDetection/assets/71272030/eb5618c0-3ce8-4470-ac68-711d6e2d26da)
+
+**Losses Curves** :
+![image](https://github.com/nooralsmadi/JordanCurrencyDetection/assets/71272030/c97103cb-62d2-4f0c-84ca-ce671709ff73)
+
+**Average Precision by class :**
+
+![image](https://github.com/nooralsmadi/JordanCurrencyDetection/assets/71272030/bdc2a957-ef01-48ef-a406-c13a7e8070d2)
+
+### Demo & Counts : 
+
+
+
+
+
 
