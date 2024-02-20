@@ -102,6 +102,10 @@ The MS COCO  (Microsoft Common Objects in Context) model by Microsoft is a pre-t
 
 ### Demo & Counts : 
 
+**Output Samples:**
+
+![image](https://github.com/nooralsmadi/JordanCurrencyDetection/assets/71272030/7ea59ab0-0cda-4e13-b131-e2d10fcf6a82)
+
 
 
 
